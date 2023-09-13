@@ -42,7 +42,7 @@ const HeroesAddForm = () => {
 			if (status === "loading") {
 					return <option>Загрузка элементов</option>
 			} else if (status === "error") {
-					return <option>Ошибка загрузки</option>
+					return <option>Помилка завантаження</option>
 			}
 			if (filters && filters.length > 0 ) {
 					return filters.map(({name, label}) => {
